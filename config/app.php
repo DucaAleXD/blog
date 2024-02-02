@@ -157,9 +157,10 @@ return [
 
     'providers' => ServiceProvider::defaultProviders()->merge([
         /*
+        servicii suplimenare pentru a avea acces la ei 
          * Package Service Providers...
          */
-
+            Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Application Service Providers...
          */
